@@ -89,7 +89,6 @@ optional arguments:
 * Visualize objects in bird's eye view in a video
 ```
 (pointcloud)$ python visualization_demo.py --dataset_path=path_to_KITTI --sequence_id=0 --vis_data_type='bev' --vis_box
-
 ```
 
 ## Visualization
