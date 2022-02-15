@@ -4,5 +4,4 @@ This repository can be used to visualize objects of KITTI in camera image, point
 <center><img src="gifs/camera.gif" width = "80%" height = ""></center>
 Visualization of objects in camera image in a video  
 
-<center><img src="gifs/pointcloud.gif" width = "40%" height = ""><img src="gifs/pointcloud_fov.gif" width = "40%" height = ""></center>
-<center>Visualization of objects in camera image in a video</center>
+
