@@ -37,7 +37,56 @@ KITTI
 If you don't want to download the dataset, a smaller version in `root_path_to_this_repo/data/KITTI/` is provided in this repository with a simplified seuqnece (sequence `0001`). You can also refer this to prepare the dataset.
 
 ## Usage
-TBD
+```
+usage: visualization_demo.py [-h] [--dataset_path DATASET_PATH]
+                             [--sequence_id SEQUENCE_ID]
+                             [--vis_data_type {camera,pointcloud,bev}] [--fov]
+                             [--vis_box] [--box_type {2d,3d}] [--save_img]
+                             [--save_path SAVE_PATH]
+
+Visualize KITTI Objects in Videos
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --dataset_path DATASET_PATH
+                        the path to KITTI, a default dataset is provided
+  --sequence_id SEQUENCE_ID
+                        the id of sequence to visualize
+  --vis_data_type {camera,pointcloud,bev}
+                        show object in camera, pointcloud or birds eye view
+  --fov                 only show front view of pointcloud
+  --vis_box             show object box or not
+  --box_type {2d,3d}    designed for visualization in camera, show 2d or 3d
+                        object box
+  --save_img            save visualization result or not
+  --save_path SAVE_PATH
+                        path to save visualization result
+
+```
+### Examples
+* Visualize objects using 2D box in camera in a video
+```
+python visualization_demo.py --dataset_path=path_to_KITTI --sequence_id=0 --vis_data_type='camera' --vis_box --box_type='2d'
+```
+* Visualize objects using 3D box in camera in a video, and save the visualization to images
+```
+python visualization_demo.py --dataset_path=path_to_KITTI --sequence_id=0 --vis_data_type='camera' --vis_box --box_type='3d' --save_img
+```
+* Visualize objects in point cloud in a video
+```
+python visualization_demo.py --dataset_path=path_to_KITTI --sequence_id=0 --vis_data_type='pointcloud' --vis_box
+
+```
+* Visualize objects in point cloud in a video in front camera view, and save visualization to images
+```
+python visualization_demo.py --dataset_path=path_to_KITTI --sequence_id=0 --vis_data_type='pointcloud' --fov --vis_box --save_img
+
+```
+* Visualize objects in bird's eye view in a video
+```
+python visualization_demo.py --dataset_path=path_to_KITTI --sequence_id=0 --vis_data_type='bev' --vis_box
+
+```
 
 ## Visualization
 ### Visualization of objects in camera image in a video  
