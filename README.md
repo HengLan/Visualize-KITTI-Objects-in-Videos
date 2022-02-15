@@ -6,6 +6,6 @@ Visualization of objects in camera image in a video
 
 
 <figure class="half">
-  <img src="gifs/camera.gif">
-  <img src="gifs/camera.gif">
+  <img src="gifs/camera.gif" width = "30%">
+  <img src="gifs/camera.gif" width = "30%">
 </figure>
