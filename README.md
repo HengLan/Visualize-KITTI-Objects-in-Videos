@@ -81,12 +81,10 @@ optional arguments:
 * Visualize objects in point cloud in a video
 ```
 (pointcloud)$ python visualization_demo.py --dataset_path=path_to_KITTI --sequence_id=0 --vis_data_type='pointcloud' --vis_box
-
 ```
 * Visualize objects in point cloud in a video in front camera view, and save visualization to images
 ```
 (pointcloud)$ python visualization_demo.py --dataset_path=path_to_KITTI --sequence_id=0 --vis_data_type='pointcloud' --fov --vis_box --save_img
-
 ```
 * Visualize objects in bird's eye view in a video
 ```
