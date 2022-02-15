@@ -34,7 +34,7 @@ KITTI
   --- [velodyne]
         --- [0000-0020] folders with .bin files
 ```
-If you don't want to download the dataset, a smaller version is provided in this repository with one seuqnece. You can also refer this to prepare the dataset.
+If you don't want to download the dataset, a smaller version in `root_path_to_this_repo/data/KITTI/` is provided in this repository with a simplified seuqnece (sequence `0001`). You can also refer this to prepare the dataset.
 
 ## Usage
 TBD
@@ -52,3 +52,6 @@ TBD
 
 ### Visualization of objects in BEV in a video
 <img src="gifs/bev.gif" width = "60%">
+
+## Questions and comments
+Questions and comments are welcomed!
