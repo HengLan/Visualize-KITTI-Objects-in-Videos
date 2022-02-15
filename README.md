@@ -20,7 +20,7 @@ This repository can be used to visualize objects of KITTI in camera image, point
 I use Anaconda with Python 3.8 on Ubuntu 20.04 for running the code!
 
 ## Data Preparation (KITTI)
-* Download <a href="http://www.cvlibs.net/datasets/kitti/eval_tracking.php">KITTI tracking data</a> (left color images, velodyne, camera calibration and training labels).
+* Download <a href="http://www.cvlibs.net/datasets/kitti/eval_tracking.php">KITTI tracking data</a>, including `left color images`, `velodyne`, `camera calibration` and `training labels`.
 
 ## Usage
 TBD
